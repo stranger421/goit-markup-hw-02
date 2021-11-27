@@ -48,6 +48,9 @@ header .logo {
   color: var(--main-color);
 }
 
+
+
+
 .contacts a,
 .links a {
   font-weight: 500;
@@ -113,3 +116,109 @@ header .logo {
 .hero-btn:focus {
   background-color: #188ce8;
 }
+
+/* Кнопки на портфолио */
+
+.container .container-button {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 32px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+  background: #F5F4FA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
+  color: var(--main-color);
+}
+
+.container-button:hover,
+.container-button:focus {
+  background-color: #188ce8;
+  color: #ffffff;
+}
+
+.company {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.company-plus {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--sec-color);
+}
+
+.employees {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.speciality {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--sec-color);
+}
+
+.footer {
+  background: #2f303a;
+}
+.home {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contacts {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+footer .logo {
+  margin-right: 93px;
+  display: flex;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--active-color);
+}
+.color-white {
+  color: #fff;
+}
+.home a:hover,
+.home a:focus,
+.footer-contacts a:hover,
+.footer-contacts a:focus
+
+/* Portfolio */
+.possibilities {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.possibilities-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+
+
+
